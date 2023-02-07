@@ -1,0 +1,51 @@
+.Productcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Productcard>img {
+    width: 100%;
+}
+
+
+.Productcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.Products {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-top: 70px;
+}
+
+.ProductssTop {
+    flex: 2;
+}
+
+.ProductsTop h1 {
+    font-weight: 700 !important;
+    font-size: 2.02729rem !important;
+    font-family: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #2F281E;
+    font-weight: 600;
+}
+
+.Productdescription {
+    padding-bottom: 20px !important;
+    width: 100%;
+}
+
+.ProductBottom {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,88 @@
+.Advanatges {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AdvantagesTop {
+    flex: 3;
+    background-color: white;
+    color: #2F281E;
+    align-items: center;
+    text-align: center !important;
+    font-weight: 700 !important;
+    font-size: 2.88651rem !important;
+    margin-bottom: 1.8rem !important;
+    font-family: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.2;
+}
+
+
+.AdvantagesMiddle {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.Stamina {
+    padding: 15px;
+}
+
+.Stamina p {
+    margin-top: 1rem !important;
+}
+
+.Passionate {
+    padding: 15px;
+    margin-bottom: 1rem !important;
+}
+
+.Passionate p {
+    margin-top: 1rem !important;
+
+}
+
+.Competitive {
+    padding: 15px;
+}
+
+.Competitive p {
+    margin-top: 1rem !important;
+}
+
+.Part {
+    padding: 15px;
+
+}
+
+.Part p {
+    margin-top: 1rem !important;
+}
+
+.AdvantagesBottom {
+    flex: 3;
+}
+
+.AdvantagesBottom {
+    align-items: center;
+    text-align: center;
+}
+
+.AdvantagesButton {
+    height: 70px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: #FFFEFE;
+    background-color: #f90;
+    border-color: #f90;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid transparent;
+    margin-left: 40px;
+
+}

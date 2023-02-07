@@ -1,0 +1,16 @@
+.Footer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.2px solid rgba(128, 128, 128, 0.621);
+}
+
+.FooterRight {
+    padding: 50px;
+}
+
+.FooterLeft {
+    padding: 50px;
+}
